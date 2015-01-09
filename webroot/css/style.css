@@ -1,0 +1,222 @@
+#wrapper {
+    width: 900px;
+    font-family: arial, sans-serif;
+}
+
+
+#header {
+    background-color: #81b756;
+    height:75px;
+    background-color: #81b756;
+    border: 1px solid #81b756;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    color: #ffffff;
+    padding: 5px;
+    text-shadow: -2px 2px 3px #000000;
+    font-size: 55px;
+}
+
+
+#sitelogo {
+	height:75px;
+	width:210px;
+	float:left;
+	text-align: center;
+}
+
+
+#menu {
+    background: white;
+    float: left;
+    height: inherit;
+    width: 180px;
+    padding-left: 20px;
+    padding-top: 50px;
+}
+
+
+#siteslogan {
+    background-color: white;
+    float: right;
+    height: 60px;
+    width: 690px;
+    text-align: left;   
+    font-size: 25px;
+    vertical-align: middle;
+    display: inline-block;  
+    margin-top: 0px; 
+    padding-top: 10px; 
+    padding-bottom: 0px; 
+    height: 40px;
+}
+
+
+h3 {font-size: 20px;}
+
+
+#main {
+    width: 690px;
+    float: right;
+    margin-bottom: 15px;
+}
+
+
+#footer {
+    background-color: #81b756;
+    clear: both;
+    text-align: center;
+    border: 1px solid #81b756;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+    height:25px;
+    color: white;
+}
+
+.category li
+{
+display: inline;
+list-style-type: none;
+margin:10px;padding:10px;
+color: white;
+background-color: green;
+
+}
+
+
+.fronttable  {
+margin-top: 30px;
+	font-size: 20px;
+	width:680px;
+	box-shadow: 10px 10px 5px #888888;
+	text-align: left;
+}
+
+.fronttable table{
+	margin:5px;padding:5px;
+}
+
+.fronttable tr { 
+	background: white;
+	}
+	
+.fronttable td:hover { 
+	background: lightgray;
+	}
+
+table.fronttable td.left  {
+margin-top: 30px;
+	font-size: 15px;
+	width:200px;
+	border:1px solid green;
+	text-align: left;
+	color: green;
+		margin:5px;padding:5px;
+}
+
+table.fronttable td  {
+margin-top: 30px;
+	font-size: 15px;
+	width:200px;
+	border:1px solid green;
+	text-align: center;
+	color: green;
+		margin:5px;padding:5px;
+}
+
+
+
+
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+
+.gametable  {
+margin-top: 30px;
+	font-size: 20px;
+	width:400px;
+	box-shadow: 10px 10px 5px #888888;
+	border:1px solid #000000;
+	text-align: left;
+	border-top-left-radius:9px;
+}
+
+.gametable table{
+	margin:0px;padding:0px;
+}
+
+
+
+.highlight {
+	background-color: green;
+	color: white;
+	-webkit-animation-name: glow;
+  	-webkit-animation-duration: 1s;
+  	-webkit-animation-iteration-count: infinite;
+}
+
+.hold {
+	background-color: red;
+	color: white;
+}	
+
+/* Buttons for 100 spel */
+
+
+a.gamebutton:hover  {
+    background-color: #ffffff;
+    color: #81b756;
+}
+
+
+a.gamebutton {
+    background-color: green;
+    border: 1px solid green;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 5px 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    font-size: 20px;    
+
+}
+
+
+ /* Navigation bar */
+
+.navbar {
+	display: block;
+	font-family:Verdana;
+	padding:0.1em;
+}
+ 
+.navbar a:link, .navbar a:visited{
+    background-color: #81b756;
+    border: 1px solid #81b756;
+    border-radius: 2px;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-left: 0;
+    margin-top: 0;
+    padding: 3px 10px 4px;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    display: block;
+    font-size: 15px;
+}
+
+.navbar a:hover {
+    background-color: #ffffff;
+    color: #81b756;
+}
+
+

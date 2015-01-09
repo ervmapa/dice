@@ -1,0 +1,2 @@
+Dice is a PHP-boilerplate/framework for small websites. 
+Dice was built by Mats Palm as part of a web programming course 
